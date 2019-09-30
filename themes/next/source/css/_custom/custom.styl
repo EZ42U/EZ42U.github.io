@@ -1,0 +1,81 @@
+// Custom styles.
+
+* {
+    cursor: url("/images/cursor.cur"), auto!important
+}
+
+:active {
+    cursor: url("/images/cursor.cur"), auto!important
+}
+
+@font-face {
+    font-family: Times New Roman Italic;
+    src: url('/fonts/Times New Roman Italic.ttf');
+}
+
+.menu {
+    opacity: 0.85;
+}
+
+.sidebar {
+    opacity: 0.85;
+}
+
+.site-title {
+    font-size: 30px !important;
+    font-family: 'Times New Roman Italic' !important;
+    color: #ffff00;
+}
+
+body {
+    background:url(https://s2.ax1x.com/2019/06/15/VoAAzj.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:50% 50%;
+}
+
+.headband {
+    height: 2px;
+    background: #49b1f5;
+}
+
+.site-meta {
+    padding: 20px 0;
+    opacity: 0.85;
+    color: #fff;
+    background: #49b1f5;
+}
+
+.site-subtitle {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #a6ffcc;
+    font-family: 'Times New Roman Italic' !important;
+}
+
+.posts-expand .post-title-link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #49b1f5;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transform: scaleX(0);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+.post {
+    margin-top: 0px;
+    margin-bottom: 60px;
+    padding: 25px;
+    -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
+    -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+}
