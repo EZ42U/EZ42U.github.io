@@ -84,7 +84,7 @@ deploy:
 
 backup:
   type: git
-  theme: material
+  theme: next
   message:
   repository:
     github: git@github.com:ez42u/ez42u.github.io.git,backup
