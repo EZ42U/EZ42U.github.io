@@ -79,7 +79,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:ez42u/ez42u.github.io.git
+  repo: git@github.com:singularity0812/singularity0812.github.io.git
   branch: master
 
 backup:
@@ -87,4 +87,4 @@ backup:
   theme: next
   message:
   repository:
-    github: git@github.com:ez42u/ez42u.github.io.git,backup
+    github: git@github.com:singularity0812/singularity0812.github.io.git,backup
