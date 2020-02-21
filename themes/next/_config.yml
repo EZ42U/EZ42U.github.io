@@ -27,10 +27,10 @@ override: false
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  small: https://s2.ax1x.com/2019/06/15/VoA9df.jpg
-  medium: https://s2.ax1x.com/2019/06/15/VoA9df.jpg
-  apple_touch_icon: https://s2.ax1x.com/2019/06/15/VoA9df.jpg
-  safari_pinned_tab: https://s2.ax1x.com/2019/06/15/VoA9df.jpg
+  small: https://cdn.jsdelivr.net/gh/singularity0909/cdn/img/avatar/lks-2.jpg
+  medium: https://cdn.jsdelivr.net/gh/singularity0909/cdn/img/avatar/lks-2.jpg
+  apple_touch_icon: https://cdn.jsdelivr.net/gh/singularity0909/cdn/img/avatar/lks-2.jpg
+  safari_pinned_tab: https://cdn.jsdelivr.net/gh/singularity0909/cdn/img/avatar/lks-2.jpg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
@@ -154,7 +154,7 @@ links_layout: block
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: https://s2.ax1x.com/2019/06/15/VoA9df.jpg
+avatar: https://cdn.jsdelivr.net/gh/singularity0909/cdn/img/avatar/lks-2.jpg
 
 # Table Of Contents in the Sidebar
 toc:
